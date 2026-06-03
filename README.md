@@ -33,11 +33,11 @@ I enjoy crafting clean interfaces, smooth animations, conversion-focused layouts
 <td>💻<br><b>Front-End Development</b></td>
 <td>🚀<br><b>Landing Page Design</b></td>
 <td>🎨<br><b>UI/UX Design</b></td>
-<td>✨<br><b>CSS Animation</b></td>
 </tr>
 
 <tr>
 <td>📱<br><b>Responsive Layouts</b></td>
+<td>✨<br><b>CSS Animation</b></td>
 <td>🚀<br><b>Website Optimization</b></td>
 <td></td>
 </tr>
