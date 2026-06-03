@@ -39,7 +39,6 @@ I enjoy crafting clean interfaces, smooth animations, conversion-focused layouts
 <td>📱<br><b>Responsive Layouts</b></td>
 <td>✨<br><b>CSS Animation</b></td>
 <td>🚀<br><b>Website Optimization</b></td>
-<td></td>
 </tr>
 </table>
 
