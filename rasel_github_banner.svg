@@ -1,0 +1,218 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Rasel - Web Designer &amp; Front-End Developer GitHub Banner</title>
+  <desc>Professional GitHub profile banner for Abdur Rahman Rasel, Web Designer and Front-End Developer</desc>
+
+  <defs>
+    <!-- Dark bg gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050d1a"/>
+      <stop offset="60%" style="stop-color:#071525"/>
+      <stop offset="100%" style="stop-color:#0a1f35"/>
+    </linearGradient>
+    <!-- Glow for accent elements -->
+    <radialGradient id="glowLeft" cx="20%" cy="50%" r="40%">
+      <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#00d4aa;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="80%" cy="40%" r="35%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0"/>
+    </radialGradient>
+    <!-- Clip for profile circle -->
+    <clipPath id="circleClip">
+      <circle cx="1200" cy="250" r="160"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bgGrad)"/>
+  <!-- Ambient glows -->
+  <rect width="1500" height="500" fill="url(#glowLeft)"/>
+  <rect width="1500" height="500" fill="url(#glowRight)"/>
+
+  <!-- Grid pattern dots -->
+  <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="20" cy="20" r="1" fill="#00d4aa" opacity="0.12"/>
+  </pattern>
+  <rect width="1500" height="500" fill="url(#dots)"/>
+
+  <!-- Top-left decorative line accent -->
+  <line x1="0" y1="3" x2="1500" y2="3" stroke="#00d4aa" stroke-width="2.5" opacity="0.7"/>
+  <!-- Bottom accent line -->
+  <line x1="0" y1="497" x2="1500" y2="497" stroke="#00d4aa" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Left vertical accent bar -->
+  <rect x="0" y="0" width="4" height="500" fill="#00d4aa" opacity="0.6"/>
+
+  <!-- Decorative geometric shapes (background) -->
+  <!-- Large hexagon-like ring top right -->
+  <circle cx="1380" cy="80" r="90" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.1"/>
+  <circle cx="1380" cy="80" r="60" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.08"/>
+
+  <!-- Circuit-like decorative lines -->
+  <line x1="60" y1="460" x2="200" y2="460" stroke="#00d4aa" stroke-width="1" opacity="0.25"/>
+  <line x1="200" y1="460" x2="200" y2="430" stroke="#00d4aa" stroke-width="1" opacity="0.25"/>
+  <circle cx="60" cy="460" r="3" fill="#00d4aa" opacity="0.4"/>
+  <circle cx="200" cy="430" r="3" fill="#00d4aa" opacity="0.4"/>
+
+  <line x1="60" y1="40" x2="60" y2="100" stroke="#00d4aa" stroke-width="1" opacity="0.2"/>
+  <line x1="60" y1="40" x2="120" y2="40" stroke="#00d4aa" stroke-width="1" opacity="0.2"/>
+  <circle cx="120" cy="40" r="3" fill="#00d4aa" opacity="0.35"/>
+
+  <!-- ======= LEFT CONTENT BLOCK ======= -->
+
+  <!-- Greeting tag -->
+  <rect x="80" y="76" width="130" height="28" rx="14" fill="#00d4aa" opacity="0.12"/>
+  <rect x="80" y="76" width="130" height="28" rx="14" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.5"/>
+  <text x="145" y="95" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#00d4aa" text-anchor="middle" opacity="0.9">👋 Hello World!</text>
+
+  <!-- Main name -->
+  <text x="80" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff" letter-spacing="-1">Hi, I'm</text>
+  <text x="80" y="242" font-family="'Segoe UI', Arial, sans-serif" font-size="68" font-weight="800" fill="#00d4aa" letter-spacing="-2">Rasel</text>
+
+  <!-- Subtitle -->
+  <text x="82" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#94a3b8">Web Designer &amp; Front-End Developer</text>
+
+  <!-- Thin separator line -->
+  <line x1="80" y1="314" x2="560" y2="314" stroke="#1e3a5f" stroke-width="1"/>
+
+  <!-- Stats row -->
+  <!-- Years -->
+  <text x="80" y="346" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#00d4aa">7+</text>
+  <text x="80" y="368" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#64748b">Years Experience</text>
+
+  <!-- Divider -->
+  <line x1="165" y1="330" x2="165" y2="375" stroke="#1e3a5f" stroke-width="1"/>
+
+  <!-- Projects -->
+  <text x="185" y="346" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#00d4aa">150+</text>
+  <text x="185" y="368" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#64748b">Projects Done</text>
+
+  <!-- Divider -->
+  <line x1="285" y1="330" x2="285" y2="375" stroke="#1e3a5f" stroke-width="1"/>
+
+  <!-- Clients -->
+  <text x="305" y="346" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#00d4aa">100+</text>
+  <text x="305" y="368" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="400" fill="#64748b">Happy Clients</text>
+
+  <!-- Skills pill row -->
+  <!-- HTML -->
+  <rect x="80" y="395" width="66" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="113" y="413" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#e2891a" text-anchor="middle">HTML</text>
+
+  <!-- CSS -->
+  <rect x="154" y="395" width="56" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="182" y="413" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#3b82f6" text-anchor="middle">CSS</text>
+
+  <!-- WordPress -->
+  <rect x="218" y="395" width="88" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="262" y="413" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#21759b" text-anchor="middle">WordPress</text>
+
+  <!-- Figma -->
+  <rect x="314" y="395" width="62" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="345" y="413" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#a259ff" text-anchor="middle">Figma</text>
+
+  <!-- SASS -->
+  <rect x="384" y="395" width="58" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="413" y="413" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" fill="#cd6799" text-anchor="middle">SASS</text>
+
+  <!-- Website link -->
+  <text x="80" y="460" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#64748b">🌐</text>
+  <text x="102" y="460" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#00d4aa" text-decoration="underline">getrasel.com</text>
+
+  <!-- Fiverr Level 2 badge -->
+  <rect x="200" y="444" width="115" height="24" rx="12" fill="#1dbf73" opacity="0.15"/>
+  <rect x="200" y="444" width="115" height="24" rx="12" fill="none" stroke="#1dbf73" stroke-width="1" opacity="0.5"/>
+  <text x="257" y="461" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#1dbf73" text-anchor="middle">Fiverr Level 2 Seller</text>
+
+  <!-- ======= CENTER DIVIDER ======= -->
+  <line x1="740" y1="60" x2="740" y2="440" stroke="#1e3a5f" stroke-width="1" opacity="0.6"/>
+
+  <!-- ======= RIGHT CONTENT BLOCK - Services ======= -->
+
+  <!-- Right section title -->
+  <text x="790" y="110" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="500" fill="#00d4aa" letter-spacing="2">SERVICES</text>
+  <line x1="870" y1="104" x2="1050" y2="104" stroke="#00d4aa" stroke-width="1" opacity="0.25"/>
+
+  <!-- Service cards row 1 -->
+  <!-- Web Design -->
+  <rect x="790" y="125" width="200" height="84" rx="8" fill="#0d1f33" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="790" y="125" width="4" height="84" rx="2" fill="#00d4aa"/>
+  <text x="806" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Web Design</text>
+  <text x="806" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">Custom layouts &amp; visual</text>
+  <text x="806" y="185" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">design that converts</text>
+  <text x="982" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#00d4aa" text-anchor="middle" opacity="0.4">⬡</text>
+
+  <!-- WordPress -->
+  <rect x="1002" y="125" width="200" height="84" rx="8" fill="#0d1f33" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="1002" y="125" width="4" height="84" rx="2" fill="#21759b"/>
+  <text x="1018" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">WordPress Dev</text>
+  <text x="1018" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">Full site build with</text>
+  <text x="1018" y="185" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">Elementor &amp; custom themes</text>
+
+  <!-- Row 2 -->
+  <!-- Figma to HTML -->
+  <rect x="790" y="221" width="200" height="84" rx="8" fill="#0d1f33" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="790" y="221" width="4" height="84" rx="2" fill="#a259ff"/>
+  <text x="806" y="246" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Figma to HTML</text>
+  <text x="806" y="266" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">Pixel-perfect conversion</text>
+  <text x="806" y="281" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">to responsive websites</text>
+
+  <!-- CSS Animation -->
+  <rect x="1002" y="221" width="200" height="84" rx="8" fill="#0d1f33" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="1002" y="221" width="4" height="84" rx="2" fill="#cd6799"/>
+  <text x="1018" y="246" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">CSS Animation</text>
+  <text x="1018" y="266" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">Smooth, engaging effects</text>
+  <text x="1018" y="281" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">that delight users</text>
+
+  <!-- Row 3 -->
+  <!-- Responsive -->
+  <rect x="790" y="317" width="200" height="84" rx="8" fill="#0d1f33" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="790" y="317" width="4" height="84" rx="2" fill="#3b82f6"/>
+  <text x="806" y="342" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Responsive Design</text>
+  <text x="806" y="362" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">Works perfectly on all</text>
+  <text x="806" y="377" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">devices &amp; screen sizes</text>
+
+  <!-- SEO -->
+  <rect x="1002" y="317" width="200" height="84" rx="8" fill="#0d1f33" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="1002" y="317" width="4" height="84" rx="2" fill="#1dbf73"/>
+  <text x="1018" y="342" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Website SEO</text>
+  <text x="1018" y="362" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">Optimized for search</text>
+  <text x="1018" y="377" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">engines &amp; performance</text>
+
+  <!-- Contact CTA at bottom right -->
+  <rect x="790" y="422" width="160" height="38" rx="19" fill="#00d4aa"/>
+  <text x="870" y="446" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#050d1a" text-anchor="middle">rasel@getrasel.com</text>
+
+  <!-- Available badge -->
+  <rect x="966" y="430" width="110" height="22" rx="11" fill="#0d1f33" stroke="#00d4aa" stroke-width="1" opacity="0.8"/>
+  <circle cx="979" cy="441" r="4" fill="#00d4aa"/>
+  <text x="1024" y="446" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="500" fill="#94a3b8" text-anchor="middle">Available for hire</text>
+
+  <!-- ======= FAR RIGHT - Profile placeholder ======= -->
+  <!-- Decorative circle ring -->
+  <circle cx="1340" cy="250" r="185" fill="none" stroke="#00d4aa" stroke-width="1" stroke-dasharray="6 8" opacity="0.18"/>
+  <circle cx="1340" cy="250" r="168" fill="none" stroke="#00d4aa" stroke-width="2" opacity="0.12"/>
+  <!-- Profile background circle -->
+  <circle cx="1340" cy="250" r="155" fill="#0d1f33"/>
+  <!-- Person silhouette (stylized) -->
+  <circle cx="1340" cy="195" r="55" fill="#1e3a5f"/>
+  <ellipse cx="1340" cy="370" rx="95" ry="60" fill="#1e3a5f"/>
+  <!-- Initials overlay -->
+  <text x="1340" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="800" fill="#00d4aa" text-anchor="middle" opacity="0.9">AR</text>
+  <!-- Accent ring on top of profile -->
+  <circle cx="1340" cy="250" r="155" fill="none" stroke="#00d4aa" stroke-width="2" opacity="0.3"/>
+
+  <!-- Floating skill badges around profile circle -->
+  <rect x="1160" y="100" width="72" height="24" rx="12" fill="#0d1f33" stroke="#00d4aa" stroke-width="1" opacity="0.7"/>
+  <text x="1196" y="117" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="500" fill="#00d4aa" text-anchor="middle">HTML/CSS</text>
+
+  <rect x="1430" y="145" width="66" height="24" rx="12" fill="#0d1f33" stroke="#3b82f6" stroke-width="1" opacity="0.7"/>
+  <text x="1463" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="500" fill="#3b82f6" text-anchor="middle">Figma</text>
+
+  <rect x="1440" y="340" width="50" height="24" rx="12" fill="#0d1f33" stroke="#21759b" stroke-width="1" opacity="0.7"/>
+  <text x="1465" y="357" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="500" fill="#21759b" text-anchor="middle">WP</text>
+
+  <rect x="1160" y="355" width="62" height="24" rx="12" fill="#0d1f33" stroke="#cd6799" stroke-width="1" opacity="0.7"/>
+  <text x="1191" y="372" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="500" fill="#cd6799" text-anchor="middle">SCSS</text>
+</svg>
